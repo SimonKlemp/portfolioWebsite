@@ -1,0 +1,22 @@
+----------
+
+Sun Oct 02 2022 16:08:07 GMT+0200 (Central European Summer Time)
+
+fatal: helper error (-1): User cancelled dialog.
+
+
+----------
+
+Sun Oct 02 2022 16:08:08 GMT+0200 (Central European Summer Time)
+
+bash: line 1: /dev/tty: No such device or address
+
+
+----------
+
+Sun Oct 02 2022 16:08:08 GMT+0200 (Central European Summer Time)
+
+error: failed to execute prompt script (exit code 1)
+fatal: could not read Username for 'https://github.com': No such file or directory
+
+
