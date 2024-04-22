@@ -1,0 +1,83 @@
+.text-primary {
+  color: #3b5c2c;
+}
+
+.bg-primary {
+  background-color: #7C7676 !important;
+}
+
+.bg-secondary {
+  background-color: #1f1b1b !important;
+}
+
+.navbarContainer {
+  max-width: 90%;
+}
+
+.section-title::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: rgb(59,92,44);
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.section-title::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+  color: #3b5c2c;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link.active {
+  background: #3b5c2c !important;
+}
+
+.timeline-item:after {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: -9px;
+  border: 2px solid #3B5C2C;
+  background-color: white;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  content: "";
+}
+
+a:focus, a:hover, a:active {
+  color: var(--bs-primary)!important;
+}
+
+:root {
+  --bs-primary: #3b5c2c;
+  --bs-secondary: #6c757d;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #f8f9fa;
+  --bs-dark: #212529;
+}
+
+.form-floating > .form-control:focus ~ label, .form-floating > .form-control:not(:placeholder-shown) ~ label, .form-floating > .form-select ~ label {
+  color: var(--bs-primary);
+  font-size: 1em;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link.active {
+  color: white;
+}
+
