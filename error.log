@@ -1038,3 +1038,35 @@ Wed Jan 29 2025 16:42:49 GMT+0100 (Central European Standard Time)
 
 Script /home/simon/Documents/github/portfolioWebsite/upload_bootstrap_studio.sh couldn't be run
 
+----------
+
+Wed Jan 29 2025 16:43:14 GMT+0100 (Central European Standard Time)
+
+Author identity unknown
+
+
+----------
+
+Wed Jan 29 2025 16:43:14 GMT+0100 (Central European Standard Time)
+
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'simon@simon-ThinkPad-E14-Gen-6.(none)')
+
+
+----------
+
+Wed Jan 29 2025 16:43:14 GMT+0100 (Central European Standard Time)
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+
